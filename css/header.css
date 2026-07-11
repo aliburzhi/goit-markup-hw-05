@@ -37,7 +37,7 @@
     padding: 24px 0;
     font-weight: 500;
     color: #2e2f42;
-    transition: color 250ms ease;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link:hover,
@@ -72,5 +72,5 @@
 }
 
 .address-link {
-    transition: color 250ms ease;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
