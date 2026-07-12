@@ -55,15 +55,6 @@
     margin-bottom: 16px;
 }
 
-.footer-container-label {
-    display: block;
-    color: #fff;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    margin-bottom: 16px;
-}
-
 .footer-social-list {
     display: flex;
     align-items: center;
@@ -114,6 +105,10 @@
     outline: transparent;
     color: #fff;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
 }
 
 .footer-email-input::placeholder {
@@ -141,6 +136,9 @@
     border: none;
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
 }
 
 .footer-email-button:hover,
